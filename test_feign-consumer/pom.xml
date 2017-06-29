@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>feign-consumer</artifactId>
+	<artifactId>test_feign-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>feign-consumer</name>
+	<name>test_feign-consumer</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

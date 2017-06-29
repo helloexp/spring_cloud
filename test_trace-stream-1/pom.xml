@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>trace-stream-1</artifactId>
+	<artifactId>test_trace-stream-1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>trace-stream-1</name>
+	<name>test_trace-stream-1</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

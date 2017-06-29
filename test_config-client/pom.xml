@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>config-client</artifactId>
+	<artifactId>test_config-client</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>config-client</name>
+	<name>test_config-client</name>
 	<description>Spring Cloud project</description>
 
 	<parent>

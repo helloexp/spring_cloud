@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>api-gateway</artifactId>
+	<artifactId>test_api-gateway</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>api-gateway</name>
+	<name>test_api-gateway</name>
 	<description>Spring Cloud project</description>
 
 	<parent>

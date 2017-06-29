@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>spring-boot-hello</artifactId>
+	<artifactId>test_spring-boot-hello</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-hello</name>
+	<name>test_spring-boot-hello</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

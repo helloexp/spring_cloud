@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>stream-consumer</artifactId>
+	<artifactId>test_stream-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>stream-consumer</name>
+	<name>test_stream-consumer</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>

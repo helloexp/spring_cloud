@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>turbine</artifactId>
+	<artifactId>test_turbine</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>turbine</name>
+	<name>test_turbine</name>
 
 	<parent>
 		<groupId>org.springframework.cloud</groupId>

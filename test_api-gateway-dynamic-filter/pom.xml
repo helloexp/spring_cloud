@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>api-gateway-dynamic-filter</artifactId>
+	<artifactId>test_api-gateway-dynamic-filter</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>api-gateway-dynamic-filter</name>
+	<name>test_api-gateway-dynamic-filter</name>
 	<description>Spring Cloud project</description>
 
 	<parent>

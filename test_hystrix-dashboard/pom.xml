@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>hystrix-dashboard</artifactId>
+	<artifactId>test_hystrix-dashboard</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>hystrix-dashboard</name>
+	<name>test_hystrix-dashboard</name>
 
 	<parent>
 		<groupId>org.springframework.cloud</groupId>

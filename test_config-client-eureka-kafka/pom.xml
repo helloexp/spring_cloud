@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>config-client-eureka-kafka</artifactId>
+	<artifactId>test_config-client-eureka-kafka</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>config-client-eureka-kafka</name>
+	<name>test_config-client-eureka-kafka</name>
 	<description>Spring Cloud project</description>
 
 	<parent>

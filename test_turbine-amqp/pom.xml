@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.didispace</groupId>
-	<artifactId>turbine-amqp</artifactId>
+	<artifactId>test_turbine-amqp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>turbine-amqp</name>
+	<name>test_turbine-amqp</name>
 
 	<parent>
 		<groupId>org.springframework.cloud</groupId>
