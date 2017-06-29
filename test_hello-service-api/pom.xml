@@ -6,9 +6,9 @@
 	<groupId>com.didispace</groupId>
 	<artifactId>test_hello-service-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>test_jar</packaging>
+	<packaging>jar</packaging>
 
-	<name>hello-service-api</name>
+	<name>test_hello-service-api</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
