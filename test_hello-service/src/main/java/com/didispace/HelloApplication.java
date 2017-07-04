@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 
 //@EnableHystrix
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 @SpringBootApplication
 public class HelloApplication {
 
