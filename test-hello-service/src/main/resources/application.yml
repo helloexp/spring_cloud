@@ -1,0 +1,18 @@
+---
+## application.yml
+spring:
+    application:
+        name: hmall-hap-job
+    profiles:
+        active: native
+   
+
+server.port: 28080
+server:
+  context-path: /hmall-hap-job
+
+spring.rabbitmq.host: 172.20.1.47
+spring.rabbitmq.port: 5672
+spring.rabbitmq.username: uniqlo
+spring.rabbitmq.password: welcome1
+spring.rabbitmq.virtualHost: hmall

@@ -28,29 +28,29 @@ public class HelloService {
         StringBuilder result = new StringBuilder();
 
         // GET
-        result.append(restTemplate.getForEntity("http://HELLO-SERVICE/hello", String.class).getBody()).append("<br>");
-        result.append(restTemplate.getForEntity("http://HELLO-SERVICE/hello1?name={1}", String.class, "didi").getBody()).append("<br>");
+        result.append(restTemplate.getForEntity("http://TEST-HELLO-SERVICE/hello", String.class).getBody()).append("<br>");
+        result.append(restTemplate.getForEntity("http://TEST-HELLO-SERVICE/hello1?name={1}", String.class, "didi").getBody()).append("<br>");
 
         Map<String, String> params = new HashMap<>();
         params.put("name", "dada");
         result.append(restTemplate.getForEntity("http://HELLO-SERVICE/hello1?name={name}", String.class, params).getBody()).append("<br>");
 
-        UriComponents uriComponents = UriComponentsBuilder.fromUriString(
-                "http://HELLO-SERVICE/hello1?name={name}")
-                .build()
-                .expand("dodo")
-                .encode();
-        URI uri = uriComponents.toUri();
-        result.append(restTemplate.getForEntity(uri, String.class).getBody()).append("<br>");
-
-        // POST
-        User user = new User("didi", 20);
-        String postResult = restTemplate.postForObject("http://HELLO-SERVICE/hello3", user, String.class);
-        result.append(postResult).append("<br>");
-
-        user = new User("didi", 30);
-        ResponseEntity<String> responseEntity = restTemplate.postForEntity("http://HELLO-SERVICE/hello3", user, String.class);
-        result.append(responseEntity.getBody()).append("<br>");
+//        UriComponents uriComponents = UriComponentsBuilder.fromUriString(
+//                "http://HELLO-SERVICE/hello1?name={name}")
+//                .build()
+//                .expand("dodo")
+//                .encode();
+//        URI uri = uriComponents.toUri();
+//        result.append(restTemplate.getForEntity(uri, String.class).getBody()).append("<br>");
+//
+//        // POST
+//        User user = new User("didi", 20);
+//        String postResult = restTemplate.postForObject("http://HELLO-SERVICE/hello3", user, String.class);
+//        result.append(postResult).append("<br>");
+//
+//        user = new User("didi", 30);
+//        ResponseEntity<String> responseEntity = restTemplate.postForEntity("http://HELLO-SERVICE/hello3", user, String.class);
+//        result.append(responseEntity.getBody()).append("<br>");
 
 //        user = new User("didi", 40);
 //        URI responseURI = restTemplate.postForLocation("http://HELLO-SERVICE/hello3", user);
